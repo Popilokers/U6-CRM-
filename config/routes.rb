@@ -16,6 +16,13 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
 
-resources :customers, only: [:index, :show]
+# config/routes.rb
+resources :customers, only: [:index, :show] do
+  collection do
+    get :missing_email
+    get :alphabetized  # if you add the alphabetical action
+  end
+end
+
 
 end
