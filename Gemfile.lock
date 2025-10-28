@@ -431,7 +431,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  activeadmin
+  activeadmin (~> 3.3)
   activestorage-validator
   bootsnap
   brakeman

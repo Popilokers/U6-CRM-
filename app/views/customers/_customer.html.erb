@@ -1,0 +1,25 @@
+<!-- app/views/customers/_customer.html.erb -->
+<div class="box">
+  <div class="has-text-centered">
+    <p><strong><%= customer.full_name %></strong></p>
+    <% if customer.image.attached? %>
+      <%= image_tag customer.image, alt: "#{customer.full_name} image", class: "image is-128x128 is-inline-block" %>
+    <% else %>
+      <%= image_tag "placeholder.png", alt: "No image available", class: "image is-128x128 is-inline-block" %>
+    <% end %>
+
+
+
+    <% if customer.phone_number.present? %>
+      <p><%= customer.phone_number %></p>
+    <% end %>
+
+    <% if customer.email.present? %>
+      <p><small><%= mail_to customer.email %></small></p>
+    <% end %>
+
+    <% if customer.notes.present? %>
+      <p><%= simple_format(customer.notes) %></p>
+    <% end %>
+  </div>
+</div>
