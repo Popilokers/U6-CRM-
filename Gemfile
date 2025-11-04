@@ -64,7 +64,7 @@ end
 
 
 gem 'activestorage-validator'
-gem 'activeadmin', '~> 3.3'
+gem 'activeadmin', '~> 3.4'
 
 gem 'sassc-rails'
 gem "sprockets-rails"
