@@ -130,7 +130,7 @@ GEM
       responders
       warden (~> 1.2.3)
     dotenv (3.1.8)
-    draper (4.0.4)
+    draper (4.0.5)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
       activemodel-serializers-xml (>= 1.0)
@@ -217,7 +217,7 @@ GEM
     marcel (1.1.0)
     matrix (0.4.3)
     mini_mime (1.1.5)
-    minitest (5.26.0)
+    minitest (5.26.1)
     msgpack (1.8.0)
     net-imap (0.5.12)
       date
@@ -260,7 +260,7 @@ GEM
       activesupport (>= 3.0.0)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (3.1.18)
+    rack (3.1.19)
     rack-session (2.1.1)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
